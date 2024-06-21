@@ -188,10 +188,10 @@ int main(void)
 		   &gensandbox_one_cpu_GetSystemInfo,
 		   "Sandbox traced by checking if NumberOfProcessors is less than 2 via GetSystemInfo()",
 		   "hi_sandbox_NumberOfProcessors_less_2_GetSystemInfo");
-	exec_check("Checking if pysical memory is < 1Gb",
+	exec_check("Checking if physical memory is < 1Gb",
 		   &gensandbox_less_than_onegb,
-		   "Sandbox traced by checking if pysical memory is less than 1Gb",
-		   "hi_sandbox_pysicalmemory_less_1Gb");
+		   "Sandbox traced by checking if physical memory is less than 1Gb",
+		   "hi_sandbox_physicalmemory_less_1Gb");
 	exec_check("Checking operating system uptime using GetTickCount()",
 		   &gensandbox_uptime,
 		   "Sandbox traced by checking operating system uptime using GetTickCount()",
